@@ -1,0 +1,59 @@
+#assign 10 to x var     x = 10
+#assign 20 to y var     y = 20
+#perform addition       z = x + y
+#printing z value       print (z)
+
+
+case styles
+===========
+myname = 'pavan'
+MYNAME = 'pavan'
+MyName = 'pavan'
+myName = 'pavan'
+my_name = 'pavan'
+my-name = 'pavan'
+syntaxError: cant't assign to operator
+
+variable type 
+============
+type(a)
+<class 'int'>
+a = 10
+print(a)
+10
+type(a)
+<class 'int'>
+id(a)
+2023822983696
+
+b = 4.7
+type(b)
+<class 'float'>
+print(b)
+4.7
+id(b)
+2023829509744
+
+c = 'siva'
+type(c)
+<class 'str'>
+print(c)
+siva
+id(c)
+2023860727600
+
+d = True
+type(d)
+<class 'bool'>
+id(d)
+140707692391272
+print(d)
+True
+
+e = 2+3j
+type(e)
+<class 'complex'>
+print(e)
+(2+3j)
+id(e)
+2023859234960
