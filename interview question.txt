@@ -849,7 +849,7 @@ ANS:
 
 
 cloudwick(2nd Round)
-=====================
+====================
 1. how can we mount volume on containers?
 ANS: 
 2. difference between cmd and entry point?
@@ -878,11 +878,12 @@ ANS:
 
 
 birla soft
+============
 
-Q. When to use the SSL with tomcat
-ans: 
+Q. When to use the SSL with tomcat?
+ans: acm or ssl  certificate enable
 Q. Diff between job and pod?
-ANS: pod noting we can the run containers 
+ANS: pod noting we can the run containers.
      inside the job we can metion pod what time we will be run.
 Q. How s3 can be used with ec2 instance?
  ANS: we can attache the iam role afetr then we will acces s3 bucket form ec2
@@ -892,7 +893,7 @@ Q. Diff between stopping and terminating the instances?
 ANS: onecs we can terminated ec2 instance we cont get back
    stopping mweans onecs we can stop we can use same instance 
 Q. Replica set and 
-ANS : based on the replicate the pod will be grown incase one pod will be deleted agin pod will be automaticaly created.
+ANS : based on the replicate the pod will be grown incase one pod will be deleted again pod will be automaticaly created.
 Q. SonarKube?
  ANS we will check the code quality.it will be check the bugs,
 Q. docker list commands what you have used in your environment?
@@ -930,6 +931,53 @@ ans: configmap nothing but is plan formet, we can readble ,configmap we can crea
      secrect nothing but encryption formet,we cant read it ,it will be storage the credentials :Password,tokens,
 Q. what is the diff between external ip and load balancer ip in k8s?
     
+
+============================================
+
+1) Tell me about your self 
+2) In a file how to print lattest 5 line?
+Ans: tail -n <number of lines> path   
+
+3) Tell me cicd flow
+4) Write a jenkins file
+5) How to mount volumes in container?
+Ans: docker run -it --name=<example> --mount source data,destination=/data os name 
+6) i have running 10 ec2 instance running same application how to declare ip address?
+7) write ansible playbook?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 =====================================================================================================================================================
 =====================================================================================================================================================
