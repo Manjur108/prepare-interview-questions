@@ -151,6 +151,7 @@ ANS: without iam we cant anthing ,
  ANS: iam role 
 3 what is replication in s3 bucket?
 4 what is commend if we want copy all data 1 bucket to other bucket?
+ans: aws s3 syc s3://firstbucket s3://secondbucket   ex: aws s3 sync s3://source-bucket s3://destination-bucket
 5 what is api gateway aws?
 6 what is git fetch and git pull?
 7 how can we revert back deleted branch in git?
@@ -186,7 +187,9 @@ Date: 28-10-2022
 company: Xenon stack
 ====================
 1. Tell me your introduction?
-2. I have a pods in kubernetes how to give s3 access in perticular pods?
+2. I have a pods in kubernetes how to give s3 access in perticular pods?  
+ans :copy OpenID Connect in cluster and past in iam identity provider and create poicies for s3 acces and  IAM Role with Trust Relationship .
+ write service account .yml  spec section mention iam arn .then pods spec section mention service account name
 3. what are the cicd stratagies?
 4. Do you worked on prod Environment?
 5. How to create all resources? creating manual are using any Ias?
